@@ -18,23 +18,13 @@ Your function should take an integer as a parameter and return its factorial.
 ## Example
 
 ```javascript
+// Function to calculate factorial
 function calculateFactorial(num) {
+    // TODO: Implement the factorial calculation logic here
+  }
   
-    if(num <= 0){
-        return "The factorial cannot be calculated for negative numbers.";
-    }else if( num === 0 || num === 1){
-        return 1
-    }else{
-        let factorial = 1
-        for(let i = 2; i <= num; i++){
-            factorial = factorial * i
-
-           return factorial
-        }
-    }
-}
-
-console.log(calculateFactorial(5));
+  // Example usage
+  console.log(calculateFactorial(6)); // Output: ??? (Implement the solution to see the output)
 
 ```
 
