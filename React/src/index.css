@@ -1,0 +1,44 @@
+/* Reset CSS */
+
+/* Box sizing border-box globally */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove default list styles */
+ul, ol {
+  list-style: none;
+}
+
+/* Remove default margin and padding on body */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Remove default margin on headings */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+/* Standardize link appearance */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Ensure images don't have extra spacing */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Optionally add more resets as needed */
+
+/* End of Reset CSS */
