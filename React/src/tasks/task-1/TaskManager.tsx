@@ -1,6 +1,7 @@
 // import { useState } from "react"
+import { Button } from './components/Button'
 
-import { StyledContainer } from "./styled"
+import { StyledContainer, StyledForm } from "./styled"
 
 export const TaskManager = () => {
     
@@ -9,10 +10,10 @@ export const TaskManager = () => {
     return (
         <StyledContainer>
             <h1>Task Manager</h1>
-            <form>
+            <StyledForm>
                 <input type='text' placeholder="task name" />
-                <input type='submit' value='Send'/>
-            </form>
+                <Button/>
+            </StyledForm>
         </StyledContainer>
     )
 }
