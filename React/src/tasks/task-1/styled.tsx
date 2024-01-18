@@ -5,7 +5,9 @@ export const StyledContainer = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
+
+  padding-top: 15%;
 
   width: 100vw;
   height: 100vh;
@@ -25,3 +27,6 @@ export const StyledForm = styled.form`
   background-color: ${tokens.colors.formFields};
 `;
 
+export const TaskContainer = styled.div`
+  margin-top: 25px ;
+`

@@ -1,6 +1,10 @@
 import styled from 'styled-components';
 import tokens from '../../../tokens.json';
+import React from 'react';
 
+interface ButtonProps {
+  onClick ?: () => null
+}
 
 const StyledButton = styled.button`
   padding: 15px 15px 15px 15px;
@@ -12,8 +16,8 @@ const StyledButton = styled.button`
   background-color: ${tokens.colors.highlight};
 `
 
-export const Button = () => {
+export const Button: React.FC<ButtonProps> = ({onClick}) => {
   return(
-    <StyledButton>New Task!</StyledButton>
+    <StyledButton onClick={onClick}>New Task!</StyledButton>
   )
 }
